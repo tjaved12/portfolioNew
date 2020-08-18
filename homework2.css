@@ -34,7 +34,7 @@ h2{
     font-size: 28px;
 }
 
-.nav-link{
+.nav-link {
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 25px;
@@ -43,7 +43,13 @@ h2{
     text-align: center;
  
   }
-
+ 
+  .nav-link:visited{
+    color: black;
+  }
+  .nav-link:hover{
+    color: green;
+  } 
   ul,li{
     overflow: auto;
     display: inline-flex;
