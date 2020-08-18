@@ -75,8 +75,8 @@ h2{
 .float-left {
     float: left;
     margin-right: 25px;
-    width: 40%;
-    height: 65%;
+    width: auto;
+    height: 50%;
 }
 @media (max-width: 480px) {
   /* For mobile phones: */
@@ -125,8 +125,9 @@ h2{
     padding-top: 240px;
     height: 300px;
     width: 250px;
-    background-image: url("./images/ISTQB.jpg");
-    background-size: contain;
+    background-size:250px 250px;
+    background-image: url("./images/portfolio3.png");
+ 
     background-repeat: no-repeat;
     border-style:double;
     border-color: black;
@@ -160,6 +161,20 @@ h2{
     border-style:double;
     border-color: black;
     text-align: center;
+  }
+    #imagewrapper5{
+      margin-left:auto ;
+      margin-right: auto;
+      margin-top: 50px;
+      padding-top: 240px;
+      height: 300px;
+      width: 250px;
+      background-image: url("./images/ISTQB.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-style:double;
+      border-color: black;
+      text-align: center;
   }
   .footer{
     position: fixed;
