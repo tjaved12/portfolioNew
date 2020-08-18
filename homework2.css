@@ -1,0 +1,203 @@
+
+body{
+  background-color: rgb(231, 228, 228);
+}
+#header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: center;
+     padding: 10px;
+     width: 100%;
+    background-color:rgb(168, 167, 164);}
+
+#header h1 {
+    background-color:rgb(168, 167, 164);
+    font-size: 40px;
+    color:black
+}
+.bg-light{
+  margin-left: 10%;
+  margin-right: auto;
+  padding: 0%;
+
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:grey;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    color: black;
+    background-color:rgb(168, 167, 164);
+    font-size: 28px;
+}
+
+.nav-link{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 25px;
+    cursor: pointer;
+    color: grey;
+    text-align: center;
+ 
+  }
+
+  ul,li{
+    overflow: auto;
+    display: inline-flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    list-style:none;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-right: 0%;
+    font-weight: bolder;
+  }
+
+.bg-light{
+  display: inline;
+   background-color: rgb(231, 228, 228)!important;
+}
+  
+.btn.btn-primary{
+    background-color: rgb(168, 167, 164);
+    color: black;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width: 40%;
+    height: 65%;
+}
+@media (max-width: 480px) {
+  /* For mobile phones: */
+  .float-left {
+    width: auto;
+    height: auto;
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+  #imagewrapper{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-size:250px 250px;
+    background-image: url("./images/portfolio1.png");
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+}
+  #imagewrapper1{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-size:430px 250px;
+    background-image: url("./images/portfolio2.png");
+  
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+}
+
+  #imagewrapper2{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/ISTQB.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+  #imagewrapper3{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/astqb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+
+  #imagewrapper4{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/safe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:rgb(231, 228, 228);
+   
+  }
+    h4{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: rgb(168, 167, 164);
+      color: brown;
+    }
+  p{
+     text-align: justify;
+     padding-right: 10px;
+    
+}
+.navbar{
+    flex-wrap: nowrap;
+    color:black;
+}
+@media (max-width: 480px) {
+  /* For mobile phones: */
+  .bold {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 40%;
+  }
+}
+
+
+  @media (max-width: 480px) {
+    /* For mobile phones: */
+    .bg-light {
+      padding-right: 10px;
+      margin-left: 30%}
+    }
+    #links{
+      overflow: auto;
+    }
