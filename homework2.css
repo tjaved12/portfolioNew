@@ -1,16 +1,24 @@
 
 body{
+  background-image: url("back.png.png");
   background-color: rgb(231, 228, 228);
+}
+#text{
+  font-family: 'Dancing Script', cursive;
+
 }
 #header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      text-align: center;
      padding: 10px;
      width: 100%;
-    background-color:rgb(168, 167, 164);}
+    background-color:#ca8f84;}
+form{
+  background-color: #eebcb4}
+
 
 #header h1 {
-    background-color:rgb(168, 167, 164);
+    background-color:#ca8f84;
     font-size: 40px;
     color:black
 }
@@ -22,24 +30,27 @@ body{
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:grey;
+    color:#835b54;
     text-align: center;
+    font-weight: bolder;
 }
-
+a{
+  color: #835b54;
+}
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
     color: black;
-    background-color:rgb(168, 167, 164);
+    background-color: #eebcb4;
     font-size: 28px;
 }
 
 .nav-link {
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
     cursor: pointer;
-    color: grey;
+    color: #ca8f84;
     text-align: center;
  
   }
@@ -48,7 +59,7 @@ h2{
     color: black;
   }
   .nav-link:hover{
-    color: green;
+    color: rgb(131, 74, 74);
   } 
   ul,li{
     overflow: auto;
@@ -60,15 +71,24 @@ h2{
     margin-right: 0 auto;
     padding-right: 0%;
     font-weight: bolder;
-  }
+    color:  #ca8f84!important;
+    font-family: 'Dancing Script', cursive;
 
+  }
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #835b54;}
+h2{
+  font-family: 'Dancing Script', cursive;
+
+}
 .bg-light{
   display: inline;
-   background-color: rgb(231, 228, 228)!important;
+   background-color: #ca8f84!important;
 }
   
 .btn.btn-primary{
-    background-color: rgb(168, 167, 164);
+    background-color: #eebcb4;
     color: black;
 }
 
@@ -76,7 +96,7 @@ h2{
     float: left;
     margin-right: 25px;
     width: auto;
-    height: 50%;
+    height: 300px;
 }
 @media (max-width: 480px) {
   /* For mobile phones: */
@@ -140,7 +160,7 @@ h2{
     padding-top: 240px;
     height: 300px;
     width: 250px;
-    background-image: url("./images/astqb.jpg");
+    background-image: url("./images/portfolio4.png");
     background-size: contain;
     background-repeat: no-repeat;
     border-style:double;
@@ -155,7 +175,7 @@ h2{
     padding-top: 240px;
     height: 300px;
     width: 250px;
-    background-image: url("./images/safe.jpg");
+    background-image: url("./images/astqb.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-style:double;
@@ -169,12 +189,13 @@ h2{
       padding-top: 240px;
       height: 300px;
       width: 250px;
-      background-image: url("./images/ISTQB.jpg");
+      background-image: url("./images/safe.jpg");
       background-size: contain;
       background-repeat: no-repeat;
       border-style:double;
       border-color: black;
       text-align: center;
+      background-color: white;
   }
   .footer{
     position: fixed;
@@ -185,13 +206,14 @@ h2{
     margin-left:auto;
     margin-right: auto;
     text-align: center;
-    background-color:rgb(231, 228, 228);
-   
+    background-color:#ca8f84;
+    font-family: 'Dancing Script', cursive;
+
   }
     h4{
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      background-color: rgb(168, 167, 164);
-      color: brown;
+      font-family: 'Dancing Script', cursive;
+      background-color: #ca8f84;
+      color: #f8dfdb;
     }
   p{
      text-align: justify;
@@ -211,7 +233,10 @@ h2{
     margin-left: 40%;
   }
 }
-
+.card-img-top {
+  height: 200px;
+  width: 200px;
+}
 
   @media (max-width: 480px) {
     /* For mobile phones: */
@@ -221,4 +246,12 @@ h2{
     }
     #links{
       overflow: auto;
+    }
+    @media (min-width: 576px){
+    .card-deck {
+      margin: auto
+    }}
+
+    .card{
+      background-color: #f8dfdb;
     }
