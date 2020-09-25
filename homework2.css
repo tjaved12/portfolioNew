@@ -12,15 +12,23 @@ body{
      text-align: center;
      padding: 10px;
      width: 100%;
-    background-color:#ca8f84;}
+    background-color:#ca8f84;
+    margin: auto}
 form{
   background-color: #eebcb4}
 
 
 #header h1 {
     background-color:#ca8f84;
+    
     font-size: 40px;
     color:black
+}
+@media (max-width: 480px) {
+  /* For mobile phones: */
+  .header {
+    background-image: url("back.png.png");
+  }
 }
 .bg-light{
   margin-left: 10%;
@@ -189,7 +197,7 @@ h2{
       padding-top: 240px;
       height: 300px;
       width: 250px;
-      background-image: url("./images/safe.jpg");
+      background-image: url("./images/portfolio5.png");
       background-size: contain;
       background-repeat: no-repeat;
       border-style:double;
